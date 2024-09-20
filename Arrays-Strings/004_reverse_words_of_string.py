@@ -11,6 +11,7 @@ def reverse_words(s: str) -> str:
         words.append(temp)
     return " ".join(words[::-1])
 
+
 # Test cases
 print(reverse_words("the sky is blue"))  # "blue is sky the"
 print(reverse_words("  hello world  "))  # "world hello"
