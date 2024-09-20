@@ -12,8 +12,8 @@ def is_subsequence(s: str, t: str) -> bool:
         return False
     return True
 
+
 # Test cases
 print(is_subsequence("abc", "ahbgdc"))  # True
 print(is_subsequence("axc", "ahbgdc"))  # False
 print(is_subsequence("abc", "ahbgdc"))  # True
-
