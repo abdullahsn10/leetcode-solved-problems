@@ -18,3 +18,4 @@ list = create_test_list()
 print_list(list)
 reversed_list = reverse_list(list)
 print_list(reversed_list)
+"S"
