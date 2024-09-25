@@ -8,7 +8,7 @@ class TreeNode:
         self.right = None
 
 
-def is_symmetric(self, root: Optional[TreeNode]) -> bool:
+def is_symmetric(root: Optional[TreeNode]) -> bool:
     def dfs(left, right):
         if left is None and right is None:
             return True

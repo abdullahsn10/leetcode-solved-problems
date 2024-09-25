@@ -5,12 +5,12 @@ class TreeNode:
         self.right = None
 
 
-def lowest_common_ancestor(self, root: TreeNode, p: TreeNode, q: TreeNode) -> TreeNode:
+def lowest_common_ancestor(root: TreeNode, p: TreeNode, q: TreeNode) -> TreeNode:
     if root is None or root == p or root == q:
         return root
 
-    left = self.lowestCommonAncestor(root.left, p, q)
-    right = self.lowestCommonAncestor(root.right, p, q)
+    left = lowest_common_ancestor(root.left, p, q)
+    right = lowest_common_ancestor(root.right, p, q)
 
     # if both left and right not None, then this means
     # the nodes exists in different subtrees so the root
